@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <title>本店详情</title>
+    <link rel="stylesheet" href="css/header-foter.css">
+    <link rel="stylesheet" href="css/bendianxq.css">
+    <!-- 控制font-size大小 -->
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/important.js"></script>
+</head>
+
+<body>
+    <div class="wrap">
+        <header class="header1">Tattoo77.com</header>
+        <header class="header2"><a href="#" class="search search1 db"></a></header>
+        <header class="header3">
+            <a href="bendianzp.html" class="fudong1 fl db"></a>
+            <div class="fudong2 fl">
+                <p class="total title">本店作品</p>
+                <p class="total small">Shop works</p>
+            </div>
+            <a href="#" class="fudong1 fudong3 fr db"></a>
+        </header>
+        <!-- 分享 -->
+        <section class="fx">
+            <ul>
+                <li class="fl"><span>分享到：</span></li>
+                <li class="fl"><a class="db" href="#"><img src="images/bd_weibo.png"></a></li>
+                <li class="fl"><a class="db" href="#"><img src="images/bd_kong.png"></a></li>
+                <li class="fl"><a class="db" href="#"><img src="images/bd_qq.png"></a></li>
+                <li class="fl"><a class="db" href="#"><img src="images/bd_ren.png"></a></li>
+                <li class="fl"><a class="db" href="#"><img src="images/bd_dou.png"></a></li>
+                <li class="fl"><a class="db" href="#"><img src="images/bd_chat.png"></a></li>
+            </ul>
+        </section>
+        <!-- 内容 -->
+        <section class="txt">
+            <div class="title">
+                <h1>人体个性纹身图案 </h1>
+                <time>2017-05-06</time>
+            </div>
+            <div class="biaoqian">
+                <span>来源：http://www.tattoo77.com</span>
+                <span>标签：人体部位纹身图案</span>
+            </div>
+            <div class="cont">
+                <img src="images/bdzp_nav20.png">
+                <p>申明：此图案是为了提供给纹身爱好者欣赏，图片均来自互联网 如有异议，请联系本站查看更多人体个性纹身图案请登陆武汉专 业纹身店 </p>
+            </div>
+        </section>
+        <!-- 关注 -->
+        <section class="gz">
+            <form>
+                <div class="checked">
+                    <a href="#" class="prep db fl">上一篇：个性木马纹</a>
+                    <a href="javascript:void(0)" class="center db fl"><img src="images/bdzpxq_zan.png"><span class="num">0</span></a>
+                    <a href="#" class="next db fr">下一篇：彩色满背象</a>
+                </div>
+                <div class="cont">
+                    <ul>
+                        <li><a href="javascript:void(0)"><img src="images/wuhan_nav1.png"></a><span>武汉老兵纹身</span></li>
+                        <li><a href="javascript:void(0)"><img src="images/wuhan_nav1.png"></a><span>武汉老兵纹身</span></li>
+                        <li><a href="javascript:void(0)"><img src="images/wuhan_nav1.png"></a><span>武汉老兵纹身</span></li>
+                        <li><a href="javascript:void(0)"><img src="images/wuhan_nav1.png"></a><span>武汉老兵纹身</span></li>
+                    </ul>
+                </div>
+                <div class="yijian">
+                    <a href="#" class="db one">一键关注</a>
+                    <a href="#" class="db two">注册微博</a>
+                </div>
+            </form>
+        </section>
+        <!-- 二维码 -->
+        <section class="ewm">
+            <img src="images/bdzpxq_ewm.png">
+            <div class="title">武汉老兵纹身微信 </div>
+            <div class="main"><a href="#">一键收听</a>武汉老兵纹身店！致力于打造湖北武汉最好的纹身店</div>
+        </section>
+        <!-- 关键词 -->
+        <section class="zp">
+            <div class="fudong2">
+                <p class="total title">关键词</p>
+                <p class="total small">Key word</p>
+            </div>
+            <!-- 作品推荐列表 -->
+            <ul class="zp_ul">
+                <li><a href="#"><img src="images/bdzp_nav10.png"></a></li>
+                <li><a href="#"><img src="images/bdzp_nav11.png"></a></li>
+                <li><a href="#"><img src="images/bdzp_nav12.png"></a></li>
+                <li><a href="#"><img src="images/bdzp_nav13.png"></a></li>
+                <li><a href="#"><img src="images/bdzp_nav14.png"></a></li>
+                <li><a href="#"><img src="images/bdzp_nav15.png"></a></li>
+                <li><a href="#"><img src="images/bdzp_nav16.png"></a></li>
+                <li><a href="#"><img src="images/bdzp_nav17.png"></a></li>
+                <li><a href="#"><img src="images/bdzp_nav18.png"></a></li>
+                <li><a href="#"><img src="images/bdzp_nav19.png"></a></li>
+            </ul>
+        </section>
+        <footer>
+            <a href="lianxiwm.html" class="fl db f_home">首页</a>
+            <a href="tel:15801616675" class="fl db f_ask">咨询预约</a>
+            <a href="#" class="fr db f_nav">导航</a>
+        </footer>
+    </div>
+</body>
+
+</html>
+<script>
+$(function() {
+    // 点击需要关注的微博
+    $('.cont a').click(function() {
+        var hasVal = $(this).hasClass('zhong');
+        if (hasVal) {
+            $(this).removeClass('zhong');
+        } else {
+            $(this).addClass('zhong');
+        }
+    })
+    // 帮我点赞
+    $('.center').one('click', function() {
+        $('.num').text(parseInt($('.num').text()) + 1);
+    })
+})
+</script>

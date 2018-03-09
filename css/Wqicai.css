@@ -1,0 +1,190 @@
+*{padding: 0;margin: 0;}
+body{min-width: 320px;background: rgb(244,244,244)!important;}
+a,button{cursor: pointer;text-decoration: none;color: #000000!;}
+li{list-style-type: none;}
+@font-face {
+	font-family:myfont;
+	src: url(../fonts/FZCSJW.TTF);
+}
+.clear{clear: both;display: block;}
+.container-fluid{
+	min-width: 300px;
+    max-width: 750px;
+    width: 100%;
+    background: white;
+    margin-top: 0.5rem;
+}
+.swiper-wrapper,.swiper-slide{
+	height: auto!important;
+}
+/*头部*/
+#Head{
+	z-index: 999;
+	margin: 0!important;
+	position: fixed;
+	top: 0;
+	min-width: 300px;
+    max-width: 750px;
+    width: 100%;
+	height: 2rem;
+	line-height: 2rem;
+	text-align: center;
+	font-size: 0.75rem;
+	background: white;
+}
+
+.C_navhead h2{
+	padding-top: 1rem;
+	text-align: center;
+	font-size: 0.9rem;
+	line-height: 0.9rem;
+	overflow: hidden;
+	display: block;
+}
+.C_navhead h6{
+	padding-top: 0.25rem;
+	padding-left: 5.75rem;
+	font-size: 0.45rem;
+	line-height: 0.45rem;
+	color: #aaaaaa;
+}
+.C_navhead{
+	margin: 0;
+	height: 3.625rem;
+}
+.C_navhead img{
+	width: 0.8rem;
+}
+.Fanhui{
+	margin-top: 1.375rem;
+	margin-left: 1.375rem;
+	float: left;
+}
+.Fxiang{
+	margin-top: 1.375rem;
+	margin-right: 1.375rem;
+	float: right;
+}
+/*主体部分*/
+.Q_main{
+	border-top: 1px dashed #a3a3a3;
+	margin: 0;
+	height: auto;
+}
+.Q_list{
+	width: 100%;
+	height: 2.375rem;
+	border-bottom: 1px dashed #a3a3a3;
+	overflow: hidden;
+}
+.Q_list a{
+	display: block;
+	float: left;
+}
+.Q_list a:nth-of-type(1){
+	width: 3.125rem;
+	text-align: right;
+}
+.Q_list a:nth-of-type(1) img{
+	margin-top: 0.2rem;
+	width: 2rem;
+}
+.Q_list a:nth-of-type(2){
+	width: 11rem;
+	font-size: 0.75rem;
+	line-height: 2.375rem;
+	color: #434452;
+	padding-left: 0.75rem;
+	box-sizing: border-box;
+}
+.Q_list a:nth-of-type(3){
+	width: 1rem;
+	line-height: 2.375rem;
+}
+.Q_list a:nth-of-type(3) img{
+	margin-top: 0.775rem;
+	width: 0.8rem;
+}
+/*底部*/
+#Bott{
+	z-index: 999;
+	position: fixed;
+	bottom: 0;
+	height: 2.5rem;
+	border-top: 1px solid black;
+	font-size: 0.5rem;
+}
+#Bott table{
+	text-align: center;
+	width: 100%;
+	height: 2.5rem;
+}
+#Bott img{
+	width: 0.75rem;
+	height: 0.75rem;
+}
+#Bott table div{
+	width: 7.5rem;
+	height: 1.5rem;
+	background: rgb(70,98,47);
+	border-radius: 0.5rem;
+	color: white;
+	line-height: 1.5rem!important;
+}
+#Bott table div img{
+	position: relative;
+	top: 0.2rem;
+	right: 0.3rem;
+}
+/*logo*/
+.C_logo{
+	margin-top: 2rem;
+	height: 3rem;
+	background: url(../images/Ckong_02.gif) no-repeat;
+	background-size: cover;
+}
+.C_logo .C_wen{
+	border: 0;
+	display: block;
+	width: 1.5rem;
+	height: 1.5rem;
+	border-radius: 50%;
+	background: url(../images/Ckong02_03.png) no-repeat;
+	background-size: cover;
+	float: right;
+	margin-top: 0.75rem;
+	margin-right: 1rem;
+}
+.Cmain-top{
+	width: 100%;
+	height: 1.85rem;
+	text-align: center;
+	line-height: 1.85rem;
+	font-size: 0.5rem;
+	background: white;
+}
+.cmainul{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 0;
+	padding-bottom: 3rem;
+}
+.cmainul li{
+	width: 5.25rem;
+	height: auto;
+}
+.cmainul img{
+	width: 100%;
+	height: 5.25rem;
+}
+.cmainp{
+	display: block;
+	width: 100%;
+	text-align: center;
+	height: 1.7rem;
+	line-height: 1.7rem;
+	font-size: 0.6rem;
+	color: #000000;
+	overflow: hidden;
+}

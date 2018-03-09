@@ -1,0 +1,301 @@
+/* html的font-size是100px,所有 1rem就是100px .1rem就是10px */
+/*适用于手机端：字体大小用rem，1rem=16px；为默认字体大小;最大宽度640*/
+/*分享*/
+section.fx{
+    height: 1.15rem;
+    width: 6.1rem;
+    padding-left: .3rem;
+    font-size: .24rem;
+    background: #Fff;
+    border-bottom: 1px dashed #e2e2e2;
+}
+.fx span{
+    line-height: 1.15rem;
+}
+.fx a{
+    width: .55rem;
+    height: .55rem;
+    overflow: hidden;
+    margin-top: .3rem;
+    margin-left: .1rem;
+}
+
+/*内容*/
+section.txt{
+    width: 6.2rem;
+    padding: .1rem;
+    min-height: 3rem;
+    overflow: hidden;
+    background: #fff;   
+    text-align: center;
+    margin-bottom: .1rem;
+}
+.txt .title{
+    height: .8rem;
+    position: relative;
+}
+.txt .title h1{
+    font-size: .3rem;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    line-height: .8rem;
+    font-family: InFont;
+}
+.txt .title time{
+    position: absolute;
+    right: .2rem;
+    bottom: .2rem;
+    font-size: .2rem;
+}
+.txt .biaoqian,
+.txt .cont{
+    min-height: .3rem;
+    line-height: .3rem;
+    color: #4e4e4e;
+    font-size: .2rem;
+}
+.txt .cont{
+    line-height: .5rem;
+}
+.txt .cont img{
+    margin:.2rem 0rem;
+}
+.txt .cont p{
+    text-align: left;
+}
+
+/*关注*/
+.gz{
+    height: 3.7rem;
+    width: 6rem;
+    padding: .2rem;
+    background: #fff;
+    margin-bottom: .1rem;
+}
+.gz .checked{
+    height: 1rem;
+    width: 100%;
+    line-height: 1rem;
+}
+
+.gz .checked a{
+    width: 40%;
+    height: 100%;
+    font-size: .2rem;
+    color: #4e4e4e;
+    text-align: right;
+    position: relative;
+}
+.gz .checked a:before{
+    content: '';
+    position: absolute;
+    top: .35rem;
+    height: .3rem;
+    width: .3rem;
+}
+.gz .checked a.prep:before{
+    left: .1rem;
+    background: url(../images/bdzpxq_left.png) no-repeat;
+    background-size:auto 100%;
+}
+
+.gz .checked a.next:before{
+    right: .1rem;
+    background: url(../images/bdzpxq_right.png) no-repeat;
+    background-size:auto 100%;
+}
+.gz .checked a.next{
+    text-align: left;
+}
+.gz .checked a.center{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    position: relative;
+}
+.gz .checked a.center span{
+    position: absolute;
+    bottom: .08rem;
+    left: 50%;
+    margin-left: -.3rem;
+    height: .3rem;
+    width: .6rem;
+    line-height: .3rem;
+    color: #fff;
+}
+.gz .checked a.center img{
+    width: 80%;
+}
+
+.gz .cont{
+    height: 1.4rem;
+    margin-top: .1rem;
+    width: 100%;
+    overflow: hidden;
+}
+.gz .cont ul{
+    width: 100%;
+    height: 100%;
+}
+.gz .cont ul li{
+    width: 25%;
+    height: 100%;
+    text-align: center;
+    color: #037fca;
+    font-size: .2rem;
+    position: relative;
+    float: left;
+}
+.gz .cont ul li a{
+    display: block;
+    height: .9rem;
+    width: .9rem;
+    margin: 0 auto;
+    border:2px solid transparent;
+}
+.gz .cont ul li a img{
+    width: 90%;
+    height: 90%;
+    margin-top: 5%;
+}
+.gz .cont ul li span{
+    height: .5rem;
+    line-height: .5rem;
+    text-align: center;
+}
+
+.gz .cont ul a.zhong{
+    border-color:#a5dc81;
+    position: relative;
+}
+.gz .cont ul a.zhong:after{
+    content: '';
+    position: absolute;
+    right: -.05rem;
+    bottom: -.02rem;
+    background:url(../images/bd_checked.png) no-repeat;
+    height: .3rem;
+    width: .3rem;
+}
+
+
+.gz .yijian{
+    height: .8rem;
+    padding-top: .2rem;
+    width: 100%;
+    position: relative;
+    margin-top: .2rem;
+}
+.gz .yijian .one{
+    width: 2.15rem;
+    height: .55rem;
+    line-height: .55rem;
+    font-size: .3rem;
+    color: #fff;
+    text-align: center;
+    background: #7DCF5A;
+    border:2px solid #4aa929;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+.gz .yijian .two{
+    position: absolute;
+    bottom: .3rem;
+    right: .1rem;
+    font-size: .24rem;
+    color: #505050;
+}
+
+
+
+/*二维码*/
+section.ewm{
+    height: 3rem;
+    background: #fff;
+    width: 6.2rem;
+    padding: .1rem;
+    padding-top: .3rem;
+    margin-bottom: .1rem;
+    text-align:center;
+}
+.ewm img{
+    width: 1.9rem;
+}
+.ewm .title{
+    height: .5rem;
+    line-height: .5rem;
+    color: #111;
+    font-size: .24rem;
+}
+.ewm .main{
+    height: .5rem;
+    line-height: .5rem;
+    color: #999;
+    font-size: .2rem;
+}
+.ewm .main a{
+    color: #aa2020;
+}
+
+
+
+/*关键词*/
+section.zp{
+    min-height: 1rem;
+    width: 100%;
+    overflow: hidden;
+    background: #fff;
+}
+.zp .fudong2{
+    width: 100%;
+    height: 1rem;
+}
+
+.zp_ul{
+    width: 6.2rem;
+    height: auto;
+    padding: .1rem;
+}
+
+.zp_ul li{
+    width: 25%;
+    height: 1.75rem;
+    overflow: hidden;
+    background: #fff;
+    float: left;
+}
+.zp_ul li a{
+    width: 99.5%;
+    height: 1.7rem;
+    overflow: hidden;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+}
+.zp_ul li a img{
+    max-height: 100%;
+    width: 98%;
+    height: 98%;
+}
+
+.zp_ul li:nth-child(10n+1),
+.zp_ul li:nth-child(10n+8){
+    width: 50%;
+    height: 3.5rem;
+}
+
+.zp_ul li:nth-child(10n+1) a,
+.zp_ul li:nth-child(10n+8) a{
+    height: 3.5rem;
+    width: 3.05rem;
+    overflow: hidden;
+}
+
+.zp_ul li:nth-child(10n+8){
+    float: right;
+}
+
+.zp_ul li:nth-child(5n+1){
+    clear: both;
+}

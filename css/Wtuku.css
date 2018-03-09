@@ -1,0 +1,245 @@
+*{padding: 0;margin: 0;}
+body{min-width: 320px;background: rgb(244,244,244)!important;}
+a,button{cursor: pointer;text-decoration: none;color: #000000!;}
+li{list-style-type: none;}
+@font-face {
+	font-family:myfont;
+	src: url(../fonts/FZCSJW.TTF);
+}
+.clear{clear: both;display: none;}
+.container-fluid{
+	min-width: 300px;
+    max-width: 750px;
+    width: 100%;
+    background: white;
+    margin-top: 0.5rem;
+}
+.swiper-wrapper,.swiper-slide{
+	height: auto!important;
+}
+/*头部*/
+#Head{
+	z-index: 999;
+	margin: 0!important;
+	position: fixed;
+	top: 0;
+	min-width: 300px;
+    max-width: 750px;
+    width: 100%;
+	height: 2rem;
+	line-height: 2rem;
+	text-align: center;
+	font-size: 0.75rem;
+	background: white;
+}
+
+.C_navhead h2,.T_tuijian h2{
+	padding-top: 1rem;
+	text-align: center;
+	font-size: 0.9rem;
+	line-height: 0.9rem;
+	overflow: hidden;
+	display: block;
+	font-family: myFont;
+}
+.C_navhead h6{
+	padding-top: 0.25rem;
+	padding-left: 5.75rem;
+	font-size: 0.45rem;
+	line-height: 0.45rem;
+	color: #aaaaaa;
+}
+.T_tuijian h6{
+	padding-top: 0.25rem;
+	text-align: center;
+	font-size: 0.45rem;
+	line-height: 0.45rem;
+	color: #aaaaaa;
+	padding-bottom: 1rem;
+}
+.C_navhead{
+	margin: 0;
+	height: 3.625rem;
+}
+.C_navhead img{
+	width: 0.8rem;
+}
+.Fanhui{
+	margin-top: 1.375rem;
+	margin-left: 1.375rem;
+	float: left;
+}
+.Fxiang{
+	margin-top: 1.375rem;
+	margin-right: 1.375rem;
+	float: right;
+}
+/*主体部分*/
+nav{
+	overflow: hidden;
+	height: auto;
+	margin-top: 0!important;
+	border-top: 1px dashed gainsboro;
+	
+}
+nav ul{
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+nav li{
+	display: inline-flex;
+	line-height: 1.2rem;
+	font-size: 0.5rem;
+	padding: 0 0.4rem 0 0.4rem;
+	border-bottom: 1px dashed gainsboro;
+}
+nav a{
+	color: #48484a;
+}
+/*图库推荐*/
+.T_tuijian li{
+	width: 100%;
+	height: auto;
+	
+}
+
+.one img{
+	width: 97%;
+	height: 8.925rem;
+}
+.zp_ul{
+    width: 98%;
+    overflow: hidden;
+    height: auto;
+    padding: .1rem;
+    
+}
+.Jzai{
+	font-size: 0.625rem;
+	line-height: 1rem;
+	text-align: center;
+	padding-top: 1rem;
+	padding-bottom: 4.6875rem;
+}
+.zp_ul li{
+    width: 25%;
+    height: 4.5rem;
+    overflow: hidden;
+    background: #fff;
+    float: left;
+}
+.zp_ul li a{
+    width: 99.5%;
+    height: 4.45rem;
+    overflow: hidden;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+}
+.zp_ul li a img{
+    max-height: 100%;
+    width: 98%;
+    height: 98%;
+}
+
+.zp_ul li:nth-child(10n+1),
+.zp_ul li:nth-child(10n+8){
+    width: 50%;
+    height: 9rem;
+}
+
+.zp_ul li:nth-child(10n+1) a,
+.zp_ul li:nth-child(10n+8) a{
+    height: 9rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+.zp_ul li:nth-child(10n+8){
+    float: right;
+}
+/*底部*/
+#Bott{
+	z-index: 999;
+	position: fixed;
+	bottom: 0;
+	height: 2.5rem;
+	border-top: 1px solid black;
+	font-size: 0.5rem;
+}
+#Bott table{
+	text-align: center;
+	width: 100%;
+	height: 2.5rem;
+}
+#Bott img{
+	width: 0.75rem;
+	height: 0.75rem;
+}
+#Bott table div{
+	width: 7.5rem;
+	height: 1.5rem;
+	background: rgb(70,98,47);
+	border-radius: 0.5rem;
+	color: white;
+	line-height: 1.5rem!important;
+}
+#Bott table div img{
+	position: relative;
+	top: 0.2rem;
+	right: 0.3rem;
+}
+/*logo*/
+.C_logo{
+	margin-top: 2rem;
+	height: 3rem;
+	background: url(../images/Ckong_02.gif) no-repeat;
+	background-size: cover;
+}
+.C_logo .C_wen{
+	border: 0;
+	display: block;
+	width: 1.5rem;
+	height: 1.5rem;
+	border-radius: 50%;
+	background: url(../images/Ckong02_03.png) no-repeat;
+	background-size: cover;
+	float: right;
+	margin-top: 0.75rem;
+	margin-right: 1rem;
+}
+
+.dlpubu{
+	width: 100%;
+	height: auto;
+	-moz-column-count:3; 	/* Firefox */
+-webkit-column-count:3; /* Safari 和 Chrome */
+column-count:3;
+	column-width:5.25rem;
+-moz-column-width:5.25rem; /* Firefox */
+-webkit-column-width:5.25rem; /* Safari 和 Chrome */
+-moz-column-gap:0;		/* Firefox */
+-webkit-column-gap:0;	/* Safari 和 Chrome */
+column-gap:0;
+}
+.dl-item{
+	width: 5.25rem;
+}
+.dl-item img{
+	width: 5.25rem;
+}
+.nav-active{
+	font-size: 0.75rem;
+}
+.fudong2{
+	width:100%;
+	position: relative;
+}
+.title-search{
+	position: absolute;
+	top: 1rem;
+	left: 0.75rem;
+}

@@ -1,0 +1,231 @@
+/* html的font-size是100px,所有 1rem就是100px .1rem就是10px */
+/*适用于手机端：字体大小用rem，1rem=16px；为默认字体大小;最大宽度640*/
+header.address{
+    font-size: .28rem;
+    min-height: 1.4rem;
+    width: 100%;
+    overflow: hidden;
+    background: #fff;
+    font-family: InFont;
+}
+
+.address .add,
+.address .phone{
+    width: 100%;
+    min-height: .4rem;
+    overflow: hidden;
+    line-height: .4rem;
+}
+
+.address .add_one,
+.phone .phone_one{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+}
+.address .add_two,
+.phone .phone_two{
+    width: 80%;
+    height: 100%;
+}
+
+/* // 地图导航 */
+section.map{
+    width: 100%;
+    min-height: 4rem;
+    background: #FFF;
+    overflow: hidden;
+}
+.map .title{
+    height: .5rem;
+    background: #fafafa;
+    border-bottom: 2px solid #e2e2e2;
+}
+.map .title a{
+    font-size: .28rem;
+    color: #999;
+    width: 2rem;
+    height: 100%;
+    text-align: center;
+    line-height: .5rem;
+}
+.map .title a:first-child{
+    margin-left: .8rem;
+}
+.map .title a.one{
+    color: #000;
+    background: #fff;
+    border-top:2px solid #4980bb;
+    border-left: 2px solid #e2e2e2;
+    border-right: 2px solid #e2e2e2;
+}
+
+
+.map .cont{
+    width: 5rem;
+    margin: 0 auto;
+    min-height: 1rem;
+    overflow:hidden;
+    margin-top: .4rem;
+}
+
+.map .cont .text{
+    width: 4.2rem;
+    height: .5rem;
+    border:2px solid #e2e2e2;
+    padding-left: .1rem;
+    color: #999;
+    font-size: .26rem;
+}
+
+.map .cont a{
+    width: 1.1rem;
+    height: .5rem;
+    background: #000;
+    color: #fff;
+    font-size: .27rem;
+    line-height: .5rem;
+    text-align: center;
+    margin-top: .4rem;
+    margin-right: .3rem;
+}
+
+.map .map_map{
+    width: 100%;
+    height: auto;
+    overflow:hidden;
+    text-align: center;
+    margin: .4rem 0;
+}
+.map .map_map img{
+    width: 90%;
+}
+
+/* // 栏目 */
+.lanmu{
+    width: 100%;
+    min-height: 1rem;
+    overflow: hidden;
+    background: #fff;
+}
+
+/* // 栏目标题 */
+.lanmu .title{
+    color: #aaa;
+    font-size: .18rem;
+    background: #fff; 
+    text-align: center;
+    border-top: 1px dashed #e2e2e2;
+    height: .9rem;
+    padding-top: .1rem;
+    position: relative;
+    font-family: InFont;
+}
+.lanmu .title .china{
+    color: #000;
+    font-size: .36rem;
+}
+.lanmu .title img{
+    position: absolute;
+    right: .3rem;
+    bottom: .4rem;
+    width: .3rem;
+}
+
+/* // 栏目内容 */
+.lanmu .cont{
+    width: 6rem;
+    min-height: 0.01rem;
+    overflow:hidden;
+    margin: 0 auto;
+    display: none;
+}
+.lanmu .cont .cont_t{
+    min-height: .5rem;
+    border-bottom: 1px dashed #e2e2e2;
+    font-size: .3rem;
+    width: 4rem;
+    padding:.3rem 1rem;
+}
+.lanmu .cont .cont_b{
+    width: 100%;
+    padding:.2rem 0;
+}
+.lanmu .cont table{
+    margin: .2rem auto;
+    font-size: .3rem;
+}
+.lanmu .cont table tr{
+    height: .5rem;
+}
+.lanmu .cont table .color{
+    font-size: .24rem;
+    color: #999;
+}
+
+/* // 栏目2 */
+.lanmu2 .cont{
+    color: #999;
+    font-size: .26rem;
+}
+
+.lanmu2 .cont .cont_t{
+    width: 5.5rem;
+    padding: .2rem 0;
+    margin: 0 auto;
+}
+.lanmu3 .cont .cont_item{
+    width: 100%;
+    min-height: 1rem;
+    overflow: hidden;
+}
+
+/* // 栏目3 */
+.lanmu3 .cont,
+.lanmu2 .cont{
+    width: 5.5rem;
+    margin: 0 auto;
+    line-height: .4rem;
+}
+.lanmu3 .cont h1{
+    font-size: .3rem;
+    margin-top: .3rem;
+    text-align: center;
+    line-height: .5rem;
+    height: .5rem;
+    color: #000;
+}
+.lanmu3 .cont div{
+    font-size: .2rem;
+    color: #999;
+    margin: .1rem 0;
+}
+
+/* // 栏目4 */
+.lanmu4 .cont{
+    width: 5.5rem;
+    margin: 0 auto;
+    padding:.2rem 0;
+    font-size: .2rem;
+    color: #999;
+    line-height: .4rem;
+}
+.lanmu4 .cont img{
+    margin:.1rem 0;
+}
+
+/* // 通知 */
+.action{
+    width: 100%;
+    min-height: .5rem;
+    background: #000;
+    color: #fff;
+    font-size: .28rem;
+    line-height: .5rem;
+    overflow: hidden;
+    margin-bottom: 1rem;
+}
+.action div{
+    width: 95%;
+    margin: 0 auto;
+}

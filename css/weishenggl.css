@@ -1,0 +1,146 @@
+/* html的font-size是100px,所有 1rem就是100px .1rem就是10px */
+/*适用于手机端：字体大小用rem，1rem=16px；为默认字体大小;最大宽度640*/
+/*导航*/
+nav{
+    width: 100%;
+    min-height: 1rem;
+    overflow: hidden;
+    border-top: 1px dashed #7f7f7f;
+    background: #fff;
+    margin-bottom: .1rem;
+}
+nav a{
+    height: 1.5rem;
+    width: 50%;
+    border-bottom: 1px dashed #7f7f7f;
+    text-align: center;
+    position: relative;
+}
+nav a:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    border-right: 1px dashed #7f7f7f;
+}
+nav a:nth-child(2n):after{
+    border-right-width: 0px;
+}
+nav a b{
+    height: .7rem;
+    width: .7rem;
+    background: red;
+    border-radius: 50%;
+    display:inline-block;
+    overflow: hidden;
+    line-height: .7rem;
+    margin-top: .4rem;
+    margin-right: .2rem;
+    margin-left: .6rem;
+    float: left;
+    text-align: center;
+}
+nav a b img{
+    height: 60%;
+}
+nav a .one{
+    background: #000;
+}
+nav a .two{
+    background: #27A1C0;
+}
+nav a .three{
+    background: #F79335;
+}
+nav a .four{
+    background: #0A5C9B;
+}
+nav a .five{
+    background: #ED212D;
+}
+nav a .six{
+    background: #4B1866;
+}
+
+nav a span{
+    float: left;
+    line-height: 1.5rem;
+    font-size: .32rem;
+    color: #535353;
+}
+nav a .oneA{
+    color: #000;
+}
+
+/*老兵动态*/
+section.laob{
+    width: 100%;
+    min-height: 1rem;
+    overflow: hidden;
+    background: #fff;
+}
+.laob_t{
+    text-align:center;
+    padding: .2rem 0;
+}
+.laob_t h1{
+    font-size: .36rem;
+    font-family: InFont;
+}
+.laob_t span{
+    font-size: .18rem;
+    color: #aaa;
+}
+
+/*内容一*/
+.laobone{
+    width: 100%;
+    min-height: 1rem;
+    overflow: hidden;
+    border-bottom: 1px dashed #aaa;
+    padding: .4rem 0;
+    font-size: .3rem;
+    color: #434452;
+}
+
+.laobone_a,
+.laobtwo_a{
+    width: 90%;
+    margin: 0 auto;
+    line-height: .5rem;
+}
+.laobone_a img{
+    width: 3rem;
+    float: left;
+}
+
+.laobtwo{
+    width: 100%;
+    background: #fff;
+    font-size: .3rem;
+    color: #434452;
+    border-bottom: 1px dashed #aaa;
+    padding: .4rem 0;
+    min-height: 1rem;
+    overflow: hidden;
+    text-align: center;
+}
+.laobtwo img{
+    margin:.3rem 0;
+    width: 50%;
+    float: left;
+}
+
+.laobthree{
+    width: 90%;
+    margin: 0 auto;
+    font-size: .3rem;
+    color: #000;
+    line-height: .4rem;
+    min-height: 1rem;
+    overflow: hidden;
+    background: #fcfcfd;
+    padding: .2rem 0;
+    line-height: .5rem;
+}
